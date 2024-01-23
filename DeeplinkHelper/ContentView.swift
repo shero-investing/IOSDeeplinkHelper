@@ -31,7 +31,7 @@ struct ContentView: View {
 
 struct LinkItem: View {
     let deeplink: Deeplink
-    private let endpoint: String = "https://qa-ct-8826-apple-applinks.qa.investing.com/apps/"
+    private let endpoint: String = "https://investing.com/apps/"
     
     var body: some View {
         if let url = URL(string: endpoint + deeplink.urlString) {

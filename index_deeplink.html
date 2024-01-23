@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Deep Link Page</title>
+    <style>
+        body {
+            text-align: center; /* Center the content */
+            margin-top: 20%; /* Adjust this value to place the link vertically in the middle */
+        }
+        #deeplink_url {
+            font-size: 24px; /* Adjust font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a id="deeplink_url" href="#">Deeplink</a>
+    </div>
+
+    <script>
+        // Function to get query parameter value by name
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Set the link's href attribute based on the query parameter
+        window.onload = function() {
+            const linkValue = getQueryParam('link'); // Assuming the query parameter is named 'link'
+            const deeplinkElement = document.getElementById('deeplink_url');
+            if (linkValue) {
+                deeplinkElement.href = linkValue;
+            }
+        };
+    </script>
+</body>
+</html>
