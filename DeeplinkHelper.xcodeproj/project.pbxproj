@@ -11,6 +11,11 @@
 		8A3E257A2B3491D7004A6982 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E25792B3491D7004A6982 /* ContentView.swift */; };
 		8A3E257C2B3491D8004A6982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E257B2B3491D8004A6982 /* Assets.xcassets */; };
 		8A3E25802B3491D8004A6982 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E257F2B3491D8004A6982 /* Preview Assets.xcassets */; };
+		8A57AA0B2B5A9F7200489FA9 /* Deeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57AA0A2B5A9F7200489FA9 /* Deeplink.swift */; };
+		8A57AA0D2B5A9FB600489FA9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57AA0C2B5A9FB600489FA9 /* String+Ext.swift */; };
+		8A57AA0F2B5A9FE200489FA9 /* Deeplink+NewsSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57AA0E2B5A9FE200489FA9 /* Deeplink+NewsSegment.swift */; };
+		8A57AA112B5AA01500489FA9 /* Deeplink+MarketSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57AA102B5AA01500489FA9 /* Deeplink+MarketSegment.swift */; };
+		8A57AA132B5AA04A00489FA9 /* Deeplink+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57AA122B5AA04A00489FA9 /* Deeplink+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		8A3E257B2B3491D8004A6982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3E257D2B3491D8004A6982 /* DeeplinkHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeeplinkHelper.entitlements; sourceTree = "<group>"; };
 		8A3E257F2B3491D8004A6982 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A57AA0A2B5A9F7200489FA9 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
+		8A57AA0C2B5A9FB600489FA9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		8A57AA0E2B5A9FE200489FA9 /* Deeplink+NewsSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deeplink+NewsSegment.swift"; sourceTree = "<group>"; };
+		8A57AA102B5AA01500489FA9 /* Deeplink+MarketSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deeplink+MarketSegment.swift"; sourceTree = "<group>"; };
+		8A57AA122B5AA04A00489FA9 /* Deeplink+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deeplink+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +62,17 @@
 		8A3E25762B3491D7004A6982 /* DeeplinkHelper */ = {
 			isa = PBXGroup;
 			children = (
+				8A57AA092B5A9F5200489FA9 /* Views */,
 				8A3E25772B3491D7004A6982 /* DeeplinkHelperApp.swift */,
 				8A3E25792B3491D7004A6982 /* ContentView.swift */,
 				8A3E257B2B3491D8004A6982 /* Assets.xcassets */,
 				8A3E257D2B3491D8004A6982 /* DeeplinkHelper.entitlements */,
 				8A3E257E2B3491D8004A6982 /* Preview Content */,
+				8A57AA0A2B5A9F7200489FA9 /* Deeplink.swift */,
+				8A57AA0C2B5A9FB600489FA9 /* String+Ext.swift */,
+				8A57AA0E2B5A9FE200489FA9 /* Deeplink+NewsSegment.swift */,
+				8A57AA102B5AA01500489FA9 /* Deeplink+MarketSegment.swift */,
+				8A57AA122B5AA04A00489FA9 /* Deeplink+Extensions.swift */,
 			);
 			path = DeeplinkHelper;
 			sourceTree = "<group>";
@@ -67,6 +83,13 @@
 				8A3E257F2B3491D8004A6982 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A57AA092B5A9F5200489FA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +164,11 @@
 			files = (
 				8A3E257A2B3491D7004A6982 /* ContentView.swift in Sources */,
 				8A3E25782B3491D7004A6982 /* DeeplinkHelperApp.swift in Sources */,
+				8A57AA0D2B5A9FB600489FA9 /* String+Ext.swift in Sources */,
+				8A57AA112B5AA01500489FA9 /* Deeplink+MarketSegment.swift in Sources */,
+				8A57AA0B2B5A9F7200489FA9 /* Deeplink.swift in Sources */,
+				8A57AA132B5AA04A00489FA9 /* Deeplink+Extensions.swift in Sources */,
+				8A57AA0F2B5A9FE200489FA9 /* Deeplink+NewsSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
